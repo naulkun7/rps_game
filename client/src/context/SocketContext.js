@@ -13,7 +13,7 @@ const SocketContextProvider = ({ children }) => {
   const location = useLocation();
 
   useEffect(() => {
-    const socket = io("https://rps-game-seven.vercel.app/");
+    const socket = io(process.env.REACT_APP_SOCKET_URL);
     setSocket(socket);
 
     socket.on("room:get", (payload) => {
