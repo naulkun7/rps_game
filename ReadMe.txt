@@ -1,5 +1,7 @@
 Follow the below steps to run the Application on Your Local Machine:
 
+ROCK PAPER SCISSOR GAME
+
 For Client:
 1) Begin by installing the required dependencies using the command: npm install.
 2) Create a .env file at the root path and include the following keys:
